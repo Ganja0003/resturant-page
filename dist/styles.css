@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu > .menu-box > h1{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    padding-left: 70px;
+    
+}
+
+.menu-items > div{
+    flex: 50%;
+    
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+

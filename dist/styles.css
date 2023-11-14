@@ -44,6 +44,7 @@ ul{
 .about{
     display: flex;
     justify-content: center;
+    background-color: pink;
 }
 
 a{
@@ -54,5 +55,10 @@ a{
 img{
     width: 250px;
     height: 150px;
+}
+
+#home-img{
+    width: 600px;
+    height: 400px;
 }
 

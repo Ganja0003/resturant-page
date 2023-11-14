@@ -1,9 +1,12 @@
-export function initialPageLoad(){
-alert('ganja');
+export function Home(){
+alert('ganj2');
 const contentDiv = document.querySelector("#content");
+contentDiv.replaceChildren();
 
 
-/* home 
+
+// HOME
+
 //create elements
 const main = document.createElement("div");
 const home = document.createElement('div');
@@ -38,8 +41,8 @@ homeBox.appendChild(text);
 image.src = "../src/images/resturant.jpeg";
 
 
-
-
+/*
+//MENU
 //create elements
 const menu = document.createElement('div');
 const menuBox = document.createElement('div');
@@ -163,7 +166,7 @@ item6.appendChild(item6Img);
 item6.appendChild(item6p);
 
 
-*/
+
 
 //create
 const about = document.createElement('div');
@@ -187,6 +190,6 @@ contentDiv.appendChild(about);
 about.appendChild(aboutBox);
 aboutBox.appendChild(title);
 aboutBox.appendChild(text);
-
+*/
 }
 
